@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_TodayCollections"
+            android:title="@string/menu_TodayCollections" />
+        <item
+            android:id="@+id/nav_delayedListings"
+            android:title="@string/menu_delayedListings" />
+        <item
+            android:id="@+id/nav_numOfStudents"
+            android:title="@string/menu_numOfStudents" />
+        <item
+            android:id="@+id/nav_DataOfStudents"
+            android:title="@string/menu_DataOfStudents" />
+        <item
+            android:id="@+id/nav_tableOfClasses"
+            android:title="@string/menu_tableOfClasses" />
+    </group>
+
+
+</menu>
